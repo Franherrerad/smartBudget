@@ -1,0 +1,15 @@
+.feature-card {
+  margin-bottom: 2rem;
+
+  @include respond-mobile {
+    margin-bottom: 1.5rem;
+  }
+}
+.cta {
+  padding: 4rem 0;
+  text-align: center;
+
+  @include respond-mobile {
+    padding: 2.5rem 1rem;
+  }
+}
